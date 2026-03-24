@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #F7F6F5;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+/* Content */
+.content {
+    flex: 1;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    color: #2E292E;
+}
+
+/* Accent color */
+h2 {
+    border-left: 5px solid #B92528;
+    padding-left: 10px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+/* Hover effects */
+.nav-link:hover {
+    color: #CF746C !important;
+}
